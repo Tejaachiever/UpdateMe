@@ -1,0 +1,52 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #000000;
+  padding: 0.5rem;
+  
+  
+  
+  nav{
+    
+    gap: 1rem;
+    button{
+      min-width: 100px;
+      margin: 0 0.6rem;
+    }
+  }
+  
+}
+
+nav button {
+  color: #fff;
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+nav button:hover {
+  background-color: #ddd7d7bd;
+}
+
+
+.home, .news, .weather {
+  margin-top: 20px;
+}
+
+
+
+h2 {
+  color: #333;
+}
